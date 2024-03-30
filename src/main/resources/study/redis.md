@@ -10,7 +10,7 @@
 1. AWS EC2 Bastion 생성
 2. 로컬에 레디스를 설치한다.
 3. 로컬에서 EC2 Port Forwarding (로컬:6379 -> Bastion EC2 -> Redis)
-4. 
+4. 접속확인
 
 ### 1. AWS EC2 Bastion 생성
 
@@ -55,4 +55,4 @@ redis-cli -c -h localhost --tls
 
 연결된 모습 
 
-![image](https://github.com/kakjzi/kakjzi/assets/82758364/96937fda-5f24-4d41-8d67-c1498c09a8b2)
+<img src="https://github.com/kakjzi/kakjzi/assets/82758364/96937fda-5f24-4d41-8d67-c1498c09a8b2" alt="image" width="50%" />
