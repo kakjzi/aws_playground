@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: aws
+  data:
+    redis:
+      # ?? ????? ??
+      host: clustercfg.test.6igafs.apn2.cache.amazonaws.com
+      # ???? ?? ???
+      cluster:
+        nodes: clustercfg.test.6igafs.apn2.cache.amazonaws.com:6379
+      # SSL ?? ??
+        ssl: true
